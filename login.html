@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <TItle>Fitness - Home | by code info</TItle>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="login.js"></script>
+   </head>
+   <body>
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>Fitness
+        </a>
+        <nav class="navbar">
+            <a href="gym.html">home</a>
+            <a href="Services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="#">|</a>
+            <a href="login.html">Login</a>
+            <a href="sign up.html" class="btn">sign up</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <form class="form" id="login">
+                <h3>Login</h3>
+                <div class="from__message-from__message--error">
+                </div>
+                <div class="from__input-group">
+                    <input style="margin-left: 5rem; border-radius: 16px;" type="text" class="from__input" id="Username"  autofocus placeholder="Username OR Email">
+                    <div class="from__input-error-message">
+                    </div>
+                </div>
+                <div class="from__input-group">
+                    <input style="margin-left: 5rem; border-radius: 16px;" type="password" class="from__input" id="password" autofocus placeholder="password">
+                    <div class="from__input-error-message">
+              </div>
+                    <button style="margin-left: 5rem; background: tomato; color: white;" class="form__buttom" type="submit" onclick="validate()" >Continue</button>
+                <p class="form__text">
+                    <a href="#" class="form__link">forgot your password</a>
+              </p>
+
+              <p class="form__text">
+                    <a style="margin-left: 2rem;" class="form__link" href="sign up.html" id="linkCreateAccount">create account</a>
+              </p>
+            </form>
+        </div>
+    </section>
+   </body>
+</html>

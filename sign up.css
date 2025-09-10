@@ -1,0 +1,194 @@
+@import url('http://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #000;
+}
+.btn{
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: tomato;
+    font-size: 16px ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background:rgba(212, 48, 48, 0.76);
+    transition: 0.4s;
+}
+/* Header */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.header .logo{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+}
+.header .logo i{
+    color: #fff;
+    padding: 0.5rem;
+
+}
+.header .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: #fff;
+}
+.header .navbar a:hover{
+    color: #baa6cf;
+}
+.header .btn{
+    background: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    font-size: 12px;
+    padding: 8px;
+
+}
+/* Home Section */
+.max-width{
+    max-width: 1302px;
+    padding: 0 90px;
+    margin: auto;
+}
+.section{
+    padding: 50px 0 50px 0;
+}
+.home{
+    display: flex;
+
+}
+.home .max-width{
+    width: 100%;
+    display:flex;
+}
+.home .home-content{
+    width: 100%;
+    padding: 3rem;
+    color: black;
+}
+.home h3{
+    color: #fff;
+    margin-top: 6rem;
+    font-size: 8rem;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+.home p{
+    color: #fff;
+    margin-left: 5rem;
+}
+.home-content{
+    width: 700px;
+    max-width: 700px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #000;
+    margin-right: 10rem;
+    margin-left: 22rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+.home-content,
+.from__input,
+.form__buttom {
+    font: 500 33px 'Quicksand' , sans-serif;
+    width: 100%;
+    min-height: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: none;
+    height: 60px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: inherit;
+    border-color: inherit;
+    line-height: inherit;
+    color: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message__success{
+    color: var(--color-success);
+}
+.form__message__error {
+    color: var(--color-error);
+}
+.from__input-error-message{
+    margin-bottom: 1rem;
+}
+.from__input-group {
+    margin-bottom: 1rem;
+
+}
+.from__message-from__message--error{
+    margin-bottom: 1rem;
+}
+.from__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid tomato;
+    outline: none;
+    background: #fff;
+}
+.from__input:focus{
+    border-color: var(--color-primary);
+    background: #fff;
+}
+.from__input--error{
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+.form__message--erro-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error); 
+}
+.form__link{
+    max-width: 500px;
+    width: 500px;
+    margin-top: 22rem;
+}
